@@ -1,0 +1,18 @@
+{
+  "name": "shycalc-core",
+  "version": "0.0.1",
+  "description": "Simple implementation of nutrition calcs",
+  "main": "./dist/.js",
+  "scripts": {
+    "test": "jest",
+    "build:dev": "webpack --config webpack.config.js",
+    "build:prod": "webpack --config prod.config.js"
+  },
+  "author": "Alejandro Cardenas",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
