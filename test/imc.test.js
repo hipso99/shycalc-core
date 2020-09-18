@@ -1,5 +1,6 @@
-const imc = require('../src/imc');
+const shycalc = require('../dist/shycalc-core');
 
+const imc = shycalc.imc;
 test('imc of 85kg and 180cm to be ', () => {
     expect(imc.imc(85, 180, 'cm')).toBe(26.234567901234566);
 });

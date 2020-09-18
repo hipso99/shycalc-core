@@ -7,6 +7,6 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'shycalc-core.js',
     library: 'shycalc',
-    libraryTarget: 'umd'
+    libraryTarget: 'commonjs2'
   },
 };
