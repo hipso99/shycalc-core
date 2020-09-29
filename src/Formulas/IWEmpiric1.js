@@ -19,9 +19,9 @@ export class IWEmpiric1 extends Formula {
     getConstant(gender) {
         switch (gender) {
             case Gender.male:
-                return MALE_CONSTANT;
+                return IWEmpiric1.MALE_CONSTANT;
             case Gender.female:
-                return FEMALE_CONSTANT;
+                return IWEmpiric1.FEMALE_CONSTANT;
         }
         throw Error(`Invalid gender: ${gender}`);
     }
