@@ -2,7 +2,7 @@
   "name": "shycalc-core",
   "version": "0.0.1",
   "description": "Simple implementation of nutrition calcs",
-  "main": "./dist/.js",
+  "main": "./dist/shycalc-core.js",
   "scripts": {
     "test": "jest",
     "build:dev": "webpack --config webpack.config.js",
@@ -11,8 +11,13 @@
   "author": "Alejandro Cardenas",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^26.4.2",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
-  }
+    "@babel/core": "7.11.6",
+    "@babel/plugin-proposal-class-properties": "7.10.4",
+    "@babel/preset-env": "7.11.5",
+    "babel-loader": "8.1.0",
+    "jest": "26.4.2",
+    "webpack": "4.44.1",
+    "webpack-cli": "3.3.12"
+  },
+  "dependencies": {}
 }
