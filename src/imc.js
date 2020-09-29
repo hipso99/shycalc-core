@@ -41,8 +41,13 @@ function description (imc) {
     return msj;
 }
 
+export {
+    imc,
+    description
+}
 
+/*
 module.exports = {
     'imc' : imc,
     'description': description,
-}
+}*/
