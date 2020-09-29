@@ -1,6 +1,9 @@
-const imc = require('./imc');
+//const imc = require('./imc');
+import * as imc from './imc';
+import { IWEmpiric1 } from './Formulas/IWEmpiric1';
 
 
-module.exports = {
-    'imc': imc
+export {
+    imc,
+    IWEmpiric1
 }
